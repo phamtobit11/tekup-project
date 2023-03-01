@@ -1,0 +1,86 @@
+/* *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 100vh;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tekup-menu {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.all {
+  cursor: pointer;
+  background-color: #f8d000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.manpower-supply {
+  cursor: pointer;
+  padding: 20px;
+}
+
+.maw {
+  cursor: pointer;
+  padding: 20px;
+}
+
+.design {
+  cursor: pointer;
+  padding: 20px;
+}
+.main-item {
+  display: inline-block;
+  padding: 25px;
+}
+.tekup-item {
+  box-shadow: 3px 3px 3px 3px #888888;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+.image-item {
+  height: 380px;
+  width: 380px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  width: calc(100% - 32px);
+  position: absolute;
+  bottom: 16px;
+  height: 60px;
+  font-size: 13px;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%);
+  box-shadow: 3px 3px 3px 3px #888888;
+}
